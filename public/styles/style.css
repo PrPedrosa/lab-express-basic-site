@@ -1,0 +1,97 @@
+*{
+    font-size: 10px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.nav{
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.main-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 8vh;
+}
+
+.refs{
+    text-decoration: none;
+    font-size: 2rem;
+    color:white;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black;
+    background-color: black;
+    padding: 5px;
+}
+
+#big-btn{
+    margin-top: 10px;
+    padding: 10px 30px
+}
+
+.titles{
+    font-size: 4rem;
+}
+
+#home-logo{
+    margin: 3vh 0;
+}
+
+.logo{
+    width: 90vw;
+}
+
+#board-img{
+    width: 50vw;
+    margin-top: 10vh;
+}
+
+.top{
+    justify-content: flex-start;
+    padding-top: 8vh;
+}
+
+.about-list > li{
+    font-size: 2rem;
+    margin-top: 2vh;
+}
+
+.gallery-img{
+    margin-top: 5vh;
+    width: 20vw;
+}
+
+figcaption {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.games-img{
+    margin-bottom: 5vh;
+    width: 30vh;
+}
+
+.game-label{
+    font-size: 1.5rem;
+    color: blue;
+}
+
+@media (min-width: 900px) {
+
+}
